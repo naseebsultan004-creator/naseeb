@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>naseeb</title>
+
+<!-- STYLE -->
+<link rel="stylesheet" href="style.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- INTRO -->
+<div class="intro">
+    <div class="intro-text">
+        <h1>WELCOME  TO  DIOR</h1></div>
+</div>
+
+<!-- HEADER -->
+<header>
+    <a href="#" class="logo">
+        <img src="logo.jpg" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#content">Contact</a>
+    </nav>
+    <div class="icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-heart"></i></a>
+        <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        <a href="#" id="openForm">
+            <i class="fas fa-user"></i>
+        </a>
+        </div>
+        <!-- USER FORM -->
+        <div class="user-form" id="userForm">
+        
+            <div class="form-box">
+                <span class="close-btn" id="closeForm">&times;</span>
+                <h2>Dior Contact</h2>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Write Your Message"></textarea>
+                <button>Send Message</button>
+            </div>
+        </div>
+      
+     </div>
+</header>
+<!-- HOME -->
+<section class="home" id="home">
+
+    <img src="اHOME1.png" class="home-bg" alt="">
+
+    <div class="overlay"></div>
+
+    <div class="content">
+
+        <h1>DIOR</h1>
+
+        <span>Dior Beauty Makeup & Fragrance</span>
+
+        <p>
+            Discover timeless elegance with Dior.<br>
+            Luxury makeup, radiant skin, and signature fragrances.<br>
+            Beauty and scent that define pure sophistication.
+        </p>
+
+        <a href="#" class="btn">Shop Now</a>
+
+    </div>
+    
+
+</section>
+<!-- FEATURES SECTION -->
+<section class="features">
+    <div class="feature-box">
+      <i class="fas fa-truck"></i>
+      <div>
+        <h4>FREE SHIPPING</h4>
+        <p>On all orders over $150</p>
+      </div>
+    </div>
+  
+    <div class="feature-box">
+      <i class="fas fa-award"></i>
+      <div>
+        <h4>PREMIUM QUALITY</h4>
+        <p>100% original products</p>
+      </div>
+    </div>
+  
+    <div class="feature-box">
+      <i class="fas fa-lock"></i>
+      <div>
+        <h4>SECURE PAYMENT</h4>
+        <p>Safe & trusted checkout</p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h2 class="about-title">
+        <span class="scan-word">About Us</span>
+    </h2>
+    <div class="about-container">
+        <div class="split-video">
+            <video autoplay muted loop playsinline>
+                <source src="vd.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="about-content">
+            <h3>Why Choose Dior</h3>
+            <p>
+                Dior represents timeless beauty and modern luxury.<br>
+                We craft premium makeup and beauty products that highlight your natural elegance.<br>
+                Every detail is designed to bring confidence, glow, and sophistication to your style.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+<!-- BLUSH LUXURY SECTION -->
+<section class="blush-luxury" id="products">
+    <div class="blush-left">
+        <span class="small-title">DIOR COLLECTION</span>
+        <h1>BLUSH</h1>
+        <p>
+            Discover Dior blush collection with elegant shades,
+            silky textures and luxurious beauty designed for
+            radiant timeless glow.
+        </p>
+        <div class="slider-btns">
+            <button id="blush-prev">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button id="blush-next">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="blush-right">
+        <div class="blush-slider" id="blush-slider">
+            <div class="slide">
+                <img src="blu3.jpg">
+                <div class="overlay-info">
+                    <h3>Soft Glow</h3>
+                    <span>$120</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="rpzz.jpg">
+                <div class="overlay-info">
+                    <h3>Rose Flush</h3>
+                    <span>$210</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="soso23.jpg">
+                <div class="overlay-info">
+                    <h3>Velvet Blush</h3>
+                    <span>$180</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="hanan.jpg">
+                <div class="overlay-info">
+                    <h3>Natural Glow</h3>
+                    <span>$95</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- LIP PRODUCTS -->
+<section class="lip-luxury" id="lips">
+    <div class="blush-left">
+        <span class="small-title">DIOR COLLECTION</span>
+        <h1>LIP</h1>
+        <p>
+            Discover Dior lip collection with elegant shades,
+            silky textures and luxurious beauty designed for
+            radiant timeless glow.
+        </p>
+        <div class="slider-btns">
+            <button id="lip-prev">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button id="lip-next">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="blush-right">
+        <div class="blush-slider" id="lip-slider">
+            <div class="slide">
+                <img src="lip5.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Glossy Pink</h3>
+                    <span>$160</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="LIP2.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Red Velvet</h3>
+                    <span>$180</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="lip222.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Soft Nude</h3>
+                    <span>$150</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="nlip1.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Luxury Shine</h3>
+                    <span>$200</span>
+                </div>
+</section>
+<!-- FRAGRANCE -->
+<section class="fragrance-luxury" id="fragrance">
+    <div class="blush-left">
+        <span class="small-title">DIOR COLLECTION</span>
+        <h1>SCENT</h1>
+        <p>
+            Discover Dior fragrances with timeless elegance,
+            luxury notes and unforgettable signature scent experience.
+        </p>
+        <div class="slider-btns">
+            <button id="frg-prev">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+
+            <button id="frg-next">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="blush-right">
+        <div class="blush-slider" id="frg-slider">
+            <div class="slide">
+                <img src="PAR3.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Miss Diort</h3>
+                    <span>$240</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="PAR2.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>J'adore</h3>
+                    <span>$310</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="PAR1.jpg" alt="">
+                <div class="overlay-info">
+                    <h3> Dior Addict</h3>
+                    <span>$280</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="parf.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Gris Dior</h3>
+                    <span>$195</span>
+                </div>
+            </div>
+</section>
+<!-- SKINCARE -->
+<section class="skincare-luxury" id="skincare-products">
+    <div class="blush-left">
+        <span class="small-title">DIOR COLLECTION</span>
+        <h1>SKINCARE</h1>
+        <p>
+            Discover Dior skincare with advanced formulas,
+            luxury textures and radiant glow for healthy glowing skin.
+        </p>
+        <div class="slider-btns">
+            <button id="skin-prev">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button id="skin-next">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="blush-right">
+        <div class="blush-slider" id="skin-slider">
+            <div class="slide">
+                <img src="skin11.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Face Cleanser</h3>
+                    <span>$220</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="skiin6.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Eye Patches</h3>
+                    <span>$195</span>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="skin3.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Gua Sha</h3>
+                    <span>$260</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="skin4.jpg" alt="">
+                <div class="overlay-info">
+                    <h3>Lip Care</h3>
+                    <span>$175</span>
+                </div>
+            </div>
+</section>
+<!-- NEW COLLECTION -->
+<section class="new-collection">
+    <h2 class="products-title">
+    <span class="scan-word">New Collection</span>
+    </h2>
+    <div class="arc-gallery">
+    <div class="arc-card card1">
+    <img src="new1.jpg">
+    </div>
+    <div class="arc-card card2">
+    <img src="new2.jpg">
+    </div>
+    <div class="arc-card card3">
+    <img src="new3.jpg">
+    </div>
+    <div class="arc-card card4">
+    <img src="new4.jpg">
+    </div>
+    <div class="arc-card card5">
+    <img src="n2wwe.jpg">
+    </div>
+    <div class="arc-card card6">
+    <img src="newwww.jpg">
+    </div>
+    <div class="arc-card card7">
+    <img src="clow.jpg">
+    </div>
+    </div>
+    </section>
+<!-- VIDEO -->
+<section class="beauty-video">
+<div class="video-container">
+    <div class="video-box">
+        <video autoplay muted loop playsinline>
+            <source src="mvd.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="video-text-box">
+        <h2 class="beauty-title">Beauty Box</h2>
+        <p class="coming-text">New Dior collection coming soon.</p>
+    </div>
+</div>
+</section>
+<section class="reviews-section" id="review">
+    <div class="brand">DIOR</div>
+    <h1>Customer Reviews</h1>
+    <h2>What Our Customers Say</h2>
+    <p class="subtitle">
+        Thank you for your trust. Here are some opinions from our lovely customers about our products.
+    </p>
+    <div class="review-card left">
+        <img src="rev1.jpg" alt="Customer">
+        
+        <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <h3>Nada A.</h3>
+            <span>12 October 2023</span>
+            <p>
+“An amazing experience. The Dior lip gloss exceeded my expectations — beautiful color, luxurious shine, and an elegant finish.” 
+            </p>
+        </div>
+    </div>
+    <div class="review-card center">
+        <img src="rev3.jpg" alt="Customer">
+        <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <h3>Nour H.</h3>
+            <span>18 October 2023</span>
+            <p>
+                I absolutely loved the Dior perfume. The scent is luxurious and lasts all day long. Fast delivery too!
+            </p>
+        </div>
+    </div>
+    <div class="review-card right">
+        <img src="rev33.jpg" alt="Customer">
+        <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <h3>Takwa.</h3>
+            <span>25 October 2023</span>
+            <p>
+                “Dior blusher is incredible — smooth, natural color with an elegant glow that lasts all day.”
+            </p>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<section class="footer" id="content">
+    <div class="footer-box">
+    <div class="footer-top">
+    <div class="footer-logo">
+        <div class="footer-logo">
+            <div class="logo-wrap">
+                <img src="logo.jpg" alt="logo">
+                <h2>Dior</h2>
+            </div>
+            <p>Luxury fashion & beauty</p>
+        </div>
+    </div>
+    <div class="footer-social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</div>
+    <hr>
+    <div class="footer-content">
+    <div>
+    <h3>Main Links</h3>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#review">Review</a>
+    </div>
+    <div>
+    <h3>Contact</h3>
+    <p><i class="fas fa-map-marker-alt"></i> Libya - Tripoli</p>
+    <p><i class="fas fa-phone"></i> +218 91 0000000</p>
+    <p><i class="fas fa-envelope"></i> naseebsultan@email.com</p>
+    </div>
+    </div>
+    <hr>
+    <div class="copy">
+    © 2026 Naseeb Sultan | Dior Beauty
+    </div>
+    </div>
+    </section>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
