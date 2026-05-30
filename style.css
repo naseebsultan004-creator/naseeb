@@ -301,7 +301,8 @@ header{
         opacity: 1;
         transform: translateY(0);
     }
-}.features{
+}
+.features{
     width: 100%;
     background: #fff7f7;
     display: flex;
@@ -1452,3 +1453,96 @@ header{
         html{
             scroll-behavior:smooth;
             }
+            
+.fully-reserved{
+    width: 100%;
+    padding: 9rem 9%;
+    background: linear-gradient(135deg, #f8eaea, #fff);
+}
+
+/* توزيع العناصر */
+.reserved-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+/* النص */
+.reserved-text{
+    max-width: 520px;
+}
+
+.reserved-text span{
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    color: #c48a8a;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.reserved-text h2{
+    font-size: 6.5rem;
+    font-weight: 500;
+    color: #b87878;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.reserved-text p{
+    font-size: 1.8rem;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* الفيديو (مش طويل هلبا + فخم) */
+.video-divider{
+    width: 340px;
+    height: 520px;
+
+    padding: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #f3d6d6,
+        #e8bcbc,
+        #f8e5e5
+    );
+
+    border-radius: 45px;
+
+    box-shadow:
+        0 25px 60px rgba(185,120,120,.18),
+        0 10px 30px rgba(0,0,0,.08);
+
+    overflow: hidden;
+}
+
+.video-divider video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 35px;
+
+    display: block;
+}
+
+/* موبايل */
+@media (max-width: 768px){
+
+    .reserved-content{
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .reserved-text h2{
+        font-size: 4.8rem;
+    }
+
+    .video-divider{
+        width: 280px;
+        height: 420px;
+    }
+}
