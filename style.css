@@ -1546,3 +1546,193 @@ header{
         height: 420px;
     }
 }
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 1.5rem 5%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .navbar{
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar a{
+        margin: 0 1rem;
+        font-size: 1.4rem;
+    }
+
+    /* HOME */
+    .home{
+        padding: 0 5%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content{
+        max-width: 100%;
+    }
+
+    .home .content h1{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 2rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
+
+    /* FEATURES */
+    .features{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* ABOUT */
+    .about-container{
+        flex-direction: column;
+    }
+
+    .split-video{
+        width: 100%;
+        height: 250px;
+    }
+
+    .about-content{
+        text-align: center;
+    }
+
+    /* PRODUCTS */
+    .blush-luxury,
+    .lip-luxury,
+    .fragrance-luxury,
+    .skincare-luxury{
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        padding: 8rem 5%;
+    }
+
+    .blush-left,
+    .blush-right{
+        width: 100%;
+    }
+
+    .blush-left h1{
+        font-size: 4.5rem;
+    }
+
+    .blush-left p{
+        max-width: 100%;
+    }
+
+    .slider-btns{
+        justify-content: center;
+    }
+
+    .slide{
+        width: 18rem;
+        height: 30rem;
+    }
+
+    /* ARC COLLECTION */
+    .arc-gallery{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .arc-card{
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        transform: none !important;
+        width: 140px;
+        height: 220px;
+    }
+
+    /* VIDEO SECTION */
+    .video-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .video-text-box{
+        text-align: center;
+    }
+
+    .video-text-box h2{
+        font-size: 3.5rem;
+    }
+
+    .video-box{
+        max-width: 100%;
+        height: 240px;
+    }
+
+    /* REVIEWS */
+    .left,
+    .center,
+    .right{
+        margin-left: 0 !important;
+    }
+
+    .review-card{
+        width: 100%;
+    }
+
+    /* RESERVED */
+    .reserved-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .reserved-text h2{
+        font-size: 4rem;
+    }
+
+    .video-divider{
+        width: 100%;
+        max-width: 300px;
+        height: 420px;
+    }
+
+    /* CONTACT FORM */
+    .form-box{
+        width: 92%;
+        padding: 2rem;
+    }
+
+    /* FOOTER */
+    .footer-top,
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-social{
+        justify-content: center;
+    }
+
+    .footer-box{
+        padding: 3rem 2rem;
+    }
+
+    .footer-logo .logo-wrap{
+        justify-content: center;
+    }
+}
