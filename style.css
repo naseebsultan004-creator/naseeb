@@ -1746,3 +1746,28 @@ header{
         justify-content: center;
     }
 }
+@media (max-width: 768px){
+
+    /* INTRO FIX */
+    .intro{
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .intro-text h1{
+        font-size: 3.5rem;   /* بدل 9rem */
+        letter-spacing: 5px;
+        line-height: 1.4;
+        word-break: break-word;
+    }
+
+    .intro-text p{
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+    }
+
+    /* يمنع أي تمدد أفقي */
+    .intro{
+        overflow-x: hidden;
+    }
+}
